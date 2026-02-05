@@ -1,0 +1,9 @@
+class Square(side: Int) {
+    init {
+        print(4 * side)
+    }
+}
+
+fun main() {
+    val sq: Square = Square(2)
+}

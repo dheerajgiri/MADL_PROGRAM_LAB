@@ -1,0 +1,6 @@
+data class Player(val name: String, val score: Int) {}
+
+fun main() {
+    val p: Player = Player("MS Dhoni", 91)
+    println(p)
+}

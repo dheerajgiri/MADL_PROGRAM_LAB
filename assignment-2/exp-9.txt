@@ -1,0 +1,6 @@
+fun main() {
+    val N: Int = 4
+    val books: Array<String> = arrayOf("nature","biology","birds","maths")
+    val filteredBooks = books.filter { book -> book[0]=='b'}
+    println(filteredBooks)
+}

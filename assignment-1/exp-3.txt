@@ -1,0 +1,8 @@
+
+fun main() {
+    val a: Double = 53
+    val b: Int = 3
+    println("$a.plus($b) = ${a.plus(b)}")
+    println("$a.div($b) = ${a.div(b)}")
+    println("%a.times($b) = ${a.times(b)}")
+}

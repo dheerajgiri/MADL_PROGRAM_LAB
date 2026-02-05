@@ -1,0 +1,13 @@
+class House(val color: String, val windows: Int, var isForSale: Boolean = false) {
+    fun putOnSale() {
+        isForSale = true
+    }
+}
+
+fun main() {
+    val house: House = House("Blue",6)
+    house.putOnSale()
+    if(house.isForSale) {
+        print(true)
+    }
+}

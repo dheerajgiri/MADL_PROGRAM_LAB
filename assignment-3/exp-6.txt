@@ -1,0 +1,15 @@
+open class Person() {
+    open fun role() {
+        println("Person")
+    }
+}
+
+class Student: Person() {
+    override fun role() {
+        println("Student")
+    }
+}
+fun main() {
+    val p: Student = Student()
+    p.role()
+}

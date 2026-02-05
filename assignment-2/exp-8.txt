@@ -1,0 +1,11 @@
+fun reverseText(text: String): String {
+    return text.reversed()
+}
+
+fun applyOperation(text: String, operation: (String) -> String): String {
+    return operation(text)
+}
+
+fun main() {
+    println(applyOperation("kotlin", ::reverseText))
+}

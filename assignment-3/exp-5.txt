@@ -1,0 +1,10 @@
+class Person(val firstName: String, val lastName: String) {
+    fun fullName() {
+        println("$firstName $lastName")
+    }
+}
+
+fun main() {
+    val p: Person = Person("George","Bush")
+    p.fullName()
+}

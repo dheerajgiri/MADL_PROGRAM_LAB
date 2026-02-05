@@ -1,0 +1,7 @@
+
+fun main() {
+    val a: Int = 1
+    val b: Int = 2
+    println("Division of $a by $b: ${a / b}")
+    println("Division of ${a.toDouble()} by ${b.toDouble()}: ${String.format("%.2f", a.toDouble() / b.toDouble())}")
+}

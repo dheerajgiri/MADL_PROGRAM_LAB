@@ -1,0 +1,11 @@
+fun main() {
+    val N = 4
+    val instruments = arrayOf("viola", "cello", "violin")
+
+    val result = instruments
+        .asSequence()
+        .filter { it.startsWith("v") }
+        .toList()
+
+    println(result)
+}

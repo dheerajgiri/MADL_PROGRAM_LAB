@@ -1,0 +1,12 @@
+fun main() {
+    val A: Int = readln().toInt()
+    val B: Int = readln().toInt()
+    val S: Int = readln().toInt()
+
+    if(A > B) {
+        for(i in A downTo B step S) print("$i ")
+    }
+    else {
+        for(i in A..B step S) print("$i ")
+    }
+}

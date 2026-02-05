@@ -1,0 +1,7 @@
+fun greetUser(name: String = "Guest") {
+    println("Hello, $name! Welcome to Kotlin")
+}
+
+fun main() {
+    greetUser("Kotlin")
+}

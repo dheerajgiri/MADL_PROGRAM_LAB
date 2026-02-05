@@ -1,0 +1,8 @@
+fun Int.isOdd(): Boolean {
+    return this % 2 != 0
+}
+
+fun main() {
+    val n = 5
+    println(n.isOdd())
+}

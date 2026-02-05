@@ -1,0 +1,14 @@
+class Circle(val radius: Double) {
+    val pi = 3.14
+
+    constructor(diameter: Double, fromDiameter: Boolean) 
+        : this(diameter / 2)
+
+    init {
+        println(pi * radius * radius)
+    }
+}
+
+fun main() {
+    val c: Circle = Circle(diameter = 10.0, fromDiameter = true)
+}

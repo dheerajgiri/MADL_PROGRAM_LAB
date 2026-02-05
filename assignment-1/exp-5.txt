@@ -1,0 +1,8 @@
+
+fun main() {
+    val name: String = "Bhuvan"
+    val dogsAndCats: String = "3 2"
+    val dogs: Int = dogsAndCats.split(" ")[0].toInt()
+    val cats: Int = dogsAndCats.split(" ")[1].toInt()
+    println("Hello, $name \nI have $dogs dogs and $cats cats.\nTotal pets: ${dogs + cats}")
+}

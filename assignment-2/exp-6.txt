@@ -1,0 +1,5 @@
+val waterFilter = { level: Int -> level/2 }
+
+fun main() {
+    println(waterFilter(20))
+}

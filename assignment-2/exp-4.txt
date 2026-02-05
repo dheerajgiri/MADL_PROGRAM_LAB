@@ -1,0 +1,11 @@
+fun formatMessage(msg: String, upperCase: Boolean = true, prefix: String = "#") {
+    if(upperCase) {
+        println("$prefix${msg.uppercase()}")
+    }else{
+     	println("$prefix$msg")   
+    }
+}
+
+fun main() {
+    formatMessage(msg = "Kotlin")
+}

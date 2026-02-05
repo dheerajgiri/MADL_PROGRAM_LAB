@@ -1,0 +1,14 @@
+interface Shape {
+    fun computeArea()
+}
+
+class Circle(val rad: Int): Shape {
+    val pi = 3.14
+    override fun computeArea() {
+        print(pi * rad * rad)
+    }
+}
+fun main() {
+    val c: Circle = Circle(5)
+    c.computeArea()
+}

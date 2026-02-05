@@ -1,0 +1,10 @@
+class Box(val length: Int, val width: Int = 20, val height: Int = 40) {
+    fun volume() {
+        print(length * width * height)
+    }
+}
+
+fun main() {
+    val box: Box = Box(30)
+    box.volume()
+}

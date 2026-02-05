@@ -1,0 +1,9 @@
+fun main() {
+    val G: Int = readln().toInt()
+    val res = when(G) {
+        0 -> "No Guests"
+        in 1..20 -> "Small group of people"
+        else -> "Large group of people!"
+    }
+    println(res)
+}

@@ -1,0 +1,11 @@
+fun encodeMessage(msg: String, encode: (String) -> String): String {
+    return encode(msg)
+}
+
+fun encode(msg: String): String {
+    return msg.uppercase()
+}
+
+fun main() {
+    println(encodeMessage("kotlin", ::encode))
+}

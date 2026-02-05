@@ -1,0 +1,17 @@
+fun main() {
+    val n: Int = readln().toInt()
+    var total: Int = 0
+
+    for(i in 1..n) {
+        val inp = readln()
+        val op = inp.split(" ")[0]
+        val score = inp.split(" ")[1].toInt()
+
+        if(op.equals("ADD")) {
+            total += score
+        }else if(op.equals("SUB")) {
+            total -= score
+        }
+    }
+    print(total)
+}

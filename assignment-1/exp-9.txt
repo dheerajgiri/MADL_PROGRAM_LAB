@@ -1,0 +1,18 @@
+fun main() {
+    val N: Int = readln().toInt()
+    val instruments: MutableList<String> = readln().split(" ") as MutableList<String>
+    val Q: Int = readln().toInt()
+
+    for(i in 1..Q) {
+        val input = readln().split(" ")
+        val op = input[0]
+        val instr = input[1]
+
+        if(op.equals("ADD")) {
+            instruments.add(instr)
+        }else if(op.equals("REMOVE")) {
+            instruments.remove(instr)
+        }
+    }
+    println(instruments)
+}

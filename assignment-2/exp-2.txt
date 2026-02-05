@@ -1,0 +1,5 @@
+fun isHot(temp: Int): Boolean = if(temp > 40) true else false
+
+fun main() {
+    println(isHot(42))
+}

@@ -1,0 +1,5 @@
+fun square(n: Int) = n*n
+
+fun main() {
+    println(square(6))
+}

@@ -1,0 +1,7 @@
+fun logMessage(message: String): Unit {
+    println(message)
+}
+
+fun main() {
+    println(logMessage("System Started"))
+}

@@ -1,0 +1,10 @@
+fun main() {
+    val T: Int = readln().toInt()
+    val books: MutableList<Int?> = mutableListOf()
+    for(i in 1..T) {
+        val inp: Int? = readln().toIntOrNull()
+        books.add(inp)
+    }
+    books.map({ i -> i?.dec() ?: 0})
+    println(books)
+}
